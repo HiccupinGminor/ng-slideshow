@@ -1,0 +1,16 @@
+{
+  "name": "ng-slideshow",
+  "version": "1.0.0",
+  "description": "A simple Angular slideshow directive",
+  "main": "index.js",
+  "scripts": {
+    "test": "karma"
+  },
+  "author": "Chris Chung",
+  "license": "MIT",
+  "dependencies": {
+    "angular": "^1.4.7",
+    "jasmine": "^2.3.2",
+    "karma": "^0.13.15"
+  }
+}

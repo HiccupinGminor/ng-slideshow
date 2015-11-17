@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Slide Show Example</title>
+	<script src="node_modules/angular/angular.js"></script>
+	<script src="src/SlideShow.js"></script>
+	<script src="src/Example.js"></script>
+	<style>
+		body {
+			font-family: Helvetica, Arial, sans-serif;
+		}
+		ul.slideshow {
+			padding-left: 0;
+		}
+		.slideshow .slide {
+			background-color: #F4F4F4;
+			list-style: none;
+			display: block;
+			margin-left: 0;
+			padding:2rem;
+		}
+	</style>
+</head>
+<body ng-app="SlideShowExampleApp">
+	<slide-show data="['Slide 1','Slide 2','Slide 3','Slide 4','Slide 5']" transition=1200></slide-show>
+</body>
+</html>
